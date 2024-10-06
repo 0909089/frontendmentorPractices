@@ -41,9 +41,8 @@ body {
 }
 
 .profile-card-container {
-  width:auto;
+  width:27rem;
   height:auto;
-  min-width:320px;
   /* min-height:30rem; */
   /* max-width:25rem; */
   /* max-height:40rem; */
@@ -81,11 +80,12 @@ body {
       color:var(--text-light);
       font-weight: bold;
       margin:0.5rem 0;
-      font-size:1.8rem;
+      font-size:1.2rem;
     }
 
-    h4 {
+    h2 {
       color:var(--text-color);
+      font-size:0.8rem;
     }
 
     p {
@@ -125,3 +125,8 @@ body {
   }
 }
 
+@media screen and (max-width:500px) {
+  .profile-card-container {
+    max-width:24rem;
+  }
+}
